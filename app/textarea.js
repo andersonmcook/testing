@@ -15,7 +15,6 @@ function verifyAlphaNumeric (textarea) {
 
 function checkWordCount (textarea) {
 	var wordsArray = textarea.split(" ");
-	console.log("wordsArray", wordsArray);
 	if (wordsArray.length > 100) {
 		return false;
 	}
